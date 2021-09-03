@@ -5,7 +5,7 @@ import './assets/styles/global.css'
 import api from './services/api'
 
 function App() {
-  const [toggleCart, setToggleCart] = useState(false)
+  const [toggleCart, setToggleCart] = useState(true)
   const [itemsCart, setItemsCart] = useState([])
   const [totalCart, setTotalCart] = useState(0)
   const queryParams = new URLSearchParams(window.location.search)
