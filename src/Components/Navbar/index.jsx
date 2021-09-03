@@ -1,11 +1,8 @@
-import React, { useState } from 'react';
-import Switch from '../Switch';
+import React from 'react';
 
 import { StyledNavBar, IconCart } from './styles';
 
 function Navbar({ handleClickCartButton, children }) {
-
-
 
   return (
     <StyledNavBar>

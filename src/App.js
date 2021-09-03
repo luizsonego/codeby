@@ -3,8 +3,6 @@ import Cart from "./Components/Cart";
 import Navbar from "./Components/Navbar";
 import './assets/styles/global.css'
 import api from './services/api'
-import Items from "./Components/Items";
-import Button from "./Components/Button";
 
 function App() {
   const [toggleCart, setToggleCart] = useState(false)
