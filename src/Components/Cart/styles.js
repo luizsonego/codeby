@@ -20,7 +20,7 @@ export const Header = styled.div`
   font: 600 1.8rem Poppins;
 `
 export const Body = styled.div`
-  min-height: 300px;
+  min-height: 150px;
   max-height: 550px;
   height: auto;
   overflow-y: auto;
